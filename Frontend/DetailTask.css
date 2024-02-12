@@ -84,7 +84,6 @@
     width: 185px;
     font-size: 18px;
     color: white;
-    
   }
 
   .detail-header-newtasktable {
@@ -536,11 +535,6 @@
     width: 535px;
     height: 45px;
   }
-
- 
-
- 
-
  
 
   .detail-severity-newtask {
@@ -672,7 +666,7 @@
     flex-direction: column;
     height: 400px;
     width: 780px;
-    top: 760px;
+    top: 710px;
     justify-content: flex-start;
   }
 
