@@ -10,7 +10,7 @@
   }
 
   .detail-task-table-wrapper {
-    height: 1160px;
+    height: 1060px;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: column;
     gap: 11px;
-    height: 745px;
+    height: 685px;
     width: 780px;
     overflow: hidden;
     position: absolute;
@@ -42,7 +42,7 @@
     flex-direction: column;
     height: 400px;
     width: 780px;
-    top: 760px;
+    top: 710px;
     justify-content: flex-start;
   }
 
@@ -182,6 +182,9 @@
     width: 158px;
   }
 
+
+ 
+
   .detail-status-label {
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -201,37 +204,11 @@
     left: 399px;
     padding: 10px;
     position: absolute;
-    top: 662px;
-    width: 158px;
-  }
-
- 
-
-  .detail-assignedby-label {
-    border-radius: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    align-items: center;
-    background-color: #3f80b69c;
-    box-shadow: inset 0px 0px 3px 3px #3f80b618;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3f80b641;
-    display: flex;
-    display: flex;
-    gap: 10px;
-    height: 44px;
-    justify-content: center;
-    left: 18px;
-    padding: 10px;
-    position: absolute;
     top: 499px;
     width: 158px;
   }
 
  
-
   .detail-date-label {
     border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
@@ -301,7 +278,7 @@
     left: 18px;
     padding: 10px;
     position: absolute;
-    top: 662px;
+    top: 499px;
     width: 158px;
   }
 
@@ -313,7 +290,6 @@
     border-style: solid;
     border-color: #3f80b65b;
     background-color: white;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -333,55 +309,6 @@
 
   }
 
-  .detail-team-newtask {
-    background-color: white;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3f80b65b;
-    color: #000000;
-    flex: 0 0 auto;
-    font-family: "Inter", Helvetica;
-    font-size: 18px;
-    font-weight: 300;
-    height: 45px;
-    left: 586px;
-    letter-spacing: 0;
-    line-height: normal;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    top: 499px;
-    width: 153px;
-  }
-
-  .detail-assignedby-newtask {
-    background-color: white;
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3f80b65b;
-    color: #000000;
-    flex: 0 0 auto;
-    font-family: "Inter", Helvetica;
-    font-size: 18px;
-    font-weight: 300;
-    height: 45px;
-    left: 205px;
-    letter-spacing: 0;
-    line-height: normal;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    top: 499px;
-    width: 356px;
-  }
 
   .detail-newtask {
     align-items: center;
@@ -412,7 +339,7 @@
     left: 585px;
     padding: 10px;
     position: absolute;
-    top: 662px;
+    top: 499px;
     width: 153px;
     font-size: 18px;
     text-align: center;
@@ -436,14 +363,13 @@
     left: 205px;
     padding: 10px;
     position: absolute;
-    top: 662px;
+    top: 499px;
     width: 153px;
   }
 
  
 
   .detail-remaining-time {
-    color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 18px;
     font-weight: 300;
@@ -460,7 +386,6 @@
     border-width: 1px;
     border-style: solid;
     border-color: #3f80b65b;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -481,6 +406,7 @@
     top: 95px;
     width: 536px;
     overflow-y: auto;
+
   }
 
   .detail-description-newtask {
@@ -489,7 +415,6 @@
     border-width: 1px;
     border-style: solid;
     border-color: #3f80b65b;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -513,6 +438,7 @@
     overflow-x: hidden;
   }
 
+ 
 
   .detail-category-label {
     border-radius: 5px;
@@ -537,6 +463,7 @@
     width: 159px;
   }
 
+ 
 
   .detail-severity-label {
     border-radius: 5px;
@@ -560,6 +487,7 @@
     width: 159px;
   }
 
+ 
 
   .detail-responsible-label {
     border-radius: 5px;
@@ -590,7 +518,6 @@
     border-width: 1px;
     border-style: solid;
     border-color: #3f80b65b;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -611,10 +538,14 @@
   }
 
  
+
+ 
+
+ 
+
   .detail-severity-newtask {
     border: 0;
     border-radius: 8px;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -638,7 +569,6 @@
 
   .detail-category-newtask {
     border-radius: 8px;
-    color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 18px;
     font-weight: 300;
@@ -682,7 +612,6 @@
     border-width: 1px;
     border-style: solid;
     border-color: #3f80b65b;
-    color: #000000;
     flex: 0 0 auto;
     font-family: "Inter", Helvetica;
     font-size: 18px;
@@ -694,9 +623,7 @@
     text-align: center;
     top: 580px;
     width: 153px;
-
   }
-
 
   .detail-close-button{
     background-color: #94b4e5;
@@ -749,6 +676,7 @@
     justify-content: flex-start;
   }
 
+
   .create-comment-newtask {
     border-radius: 5px;
     border-width: 1px;
@@ -779,7 +707,6 @@
     padding: 10px;
     background-color: transparent;
     border: 1px solid #ccc;
-    color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 18px;
     font-weight: 300;
