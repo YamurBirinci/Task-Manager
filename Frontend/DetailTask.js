@@ -17,15 +17,13 @@ export const DetailTask = ({ task, onClose }) => {
     responsible: '',
     comments: '',
     status: '',
-    assignedBy: '',
-    team: '',
     deadline: '',
     date: '',
     remaining: '',
     description: ''
   });
 
-  //Task detaylarını alma
+
   useEffect(() => {
     if (task && task.TaskId) {
       fetch(`http://localhost:8081/tasks/${task.TaskId}`)
@@ -39,8 +37,6 @@ export const DetailTask = ({ task, onClose }) => {
           responsible: data.responsible,
           status: data.status,
           comments: data.comment,
-          assignedBy: data.assignedBy,
-          team: data.team,
           deadline: data.delivery_date ? data.delivery_date.split("T")[0] : '',
           date: data.issuance_date ? data.issuance_date.split("T")[0] : '',
           remaining: data.remaining_time,
@@ -177,10 +173,6 @@ export const DetailTask = ({ task, onClose }) => {
           <div className="detail-responsible-newtask" name="responsible">{taskDetails.responsible || 'No Info'}</div>
 
           <div className="detailRectangle" />
-          <div className="detail-assignedby-label">Assigned by</div>
-          <div className="detail-assignedby-newtask" name="assignedBy">{taskDetails.assignedBy || 'No Info'}</div>
-
-          <div className="detailRectangle" />
           <div className="detailRectangle" />
           <div className="detail-status-label">Status</div>
           <div className="detail-status-newtask" name="status">{taskDetails.status || 'No Info'}</div>
@@ -198,8 +190,7 @@ export const DetailTask = ({ task, onClose }) => {
           <div className="detail-date2-label">Delivery date</div>
           <div className="detail-date2-newtask" name="deadline">{taskDetails.deadline || 'No Info'}</div>
 
-          <div className="detail-team-newtask" name="team">{taskDetails.team || 'No Info'}</div>
-                    
+                   
         </div>
       </div>
     </div>
@@ -211,3 +202,6 @@ export const DetailTask = ({ task, onClose }) => {
  
 
 export default DetailTask;
+
+
+
