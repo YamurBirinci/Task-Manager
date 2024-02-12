@@ -60,7 +60,6 @@
   border-top-right-radius: 8px;
 }
 
- 
 
 .text-wrapper {
   color: #ffffff;
@@ -110,6 +109,7 @@
   z-index: 1000;
 }
 
+
 .edit-description-label {
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -134,7 +134,6 @@
 }
 
  
-
 .edit-status-label {
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -158,8 +157,7 @@
 }
 
  
-
-.edit-assignedby-label {
+.edit-date2-label {
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
@@ -177,31 +175,7 @@
   left: 18px;
   padding: 10px;
   position: absolute;
-  top: 499px;
-  width: 158px;
-  z-index: 1000;
-}
-
-
-.edit-date2-label {
-  border-radius: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  align-items: center;
-  background-color: #3f80b69c;
-  box-shadow: inset 0px 0px 3px 3px #3f80b618;
-  border-width: 1px;
-  border-style: solid;
-  border-color: #3f80b641;
-  display: flex;
-  gap: 10px;
-  height: 45px;
-  justify-content: center;
-  left: 400px;
-  padding: 10px;
-  position: absolute;
-  top: 580px;
+  top: 498px;
   width: 158px;
 }
 
@@ -229,51 +203,6 @@
   width: 158px;
 }
 
- 
-
-.edit-team-newtask {
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3f80b65b;
-    color: #000000;
-    flex: 0 0 auto;
-    font-family: "Inter", Helvetica;
-    font-size: 18px;
-    font-weight: 300;
-    height: 45px;
-    left: 588px;
-    letter-spacing: 0;
-    line-height: normal;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    top: 499px;
-    width: 153px;
-
-}
-
-.edit-assignedby-newtask {
-    border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #3f80b65b;
-    color: #000000;
-    flex: 0 0 auto;
-    font-family: "Inter", Helvetica;
-    font-size: 18px;
-    font-weight: 300;
-    height: 45px;
-    left: 205px;
-    letter-spacing: 0;
-    line-height: normal;
-    padding: 10px;
-    position: absolute;
-    text-align: center;
-    top: 499px;
-    width: 356px;
-
-}
 
 .edit-newtask {
     align-items: center;
@@ -305,7 +234,7 @@
     left: 205px;
     padding: 10px;
     top: 580px;
-    width: 180px;
+    width: 560px;
     font-size: 18px;
 }
 
@@ -328,9 +257,9 @@
     width: 153px;
 }
 
- 
 
 .edit-remaining-time {
+    color: #000000;
     font-family: "Inter", Helvetica;
     font-size: 18px;
     font-weight: 300;
@@ -339,9 +268,10 @@
     position: relative;
     text-align: center;
     width: 101px;
+
 }
 
-  
+   
 .edit-subject-newtask {
   border-radius: 5px;
   border-width: 1px;
@@ -389,7 +319,6 @@
     z-index: 1000;
 }
 
- 
 
 .edit-category-label {
   border-radius: 5px;
@@ -414,7 +343,6 @@
   z-index: 1000;
 }
 
- 
 
 .edit-severity-label {
   border-radius: 5px;
@@ -439,7 +367,6 @@
   z-index: 1000;
 }
 
- 
 
 .edit-responsible-label {
   border-radius: 5px;
@@ -464,8 +391,6 @@
   z-index: 1000;
 }
 
- 
-
 
 .edit-comment {
     width: 690px;
@@ -483,7 +408,7 @@
     text-align: left;
 }
 
-
+ 
 .edit-responsible-newtask {
     border-radius: 5px;
     border-width: 1px;
@@ -504,7 +429,6 @@
     width: 559px;
     top: 418px;
 }
-
  
 
 .edit-severity-newtask {
@@ -529,7 +453,6 @@
 }
 
  
-
 .edit-category-newtask {
   border-radius: 8px;
   color: #000000;
@@ -555,7 +478,6 @@
 .edit-input-radio {
   margin-right: 50px;
 }
-
  
 
 .edit-date2-newtask {
@@ -564,7 +486,7 @@
     gap: 10px;
     height: 45px;
     justify-content: center;
-    left: 587px;
+    left: 205px;
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
@@ -579,12 +501,11 @@
     padding: 10px;
     position: absolute;
     text-align: center;
-    top: 580px;
-    width: 153px;
+    top: 498px;
+    width: 536px;
     background-color: white;
 }
 
- 
 
 .edit-assign-button {
     align-items: center;
@@ -606,6 +527,7 @@
     font-weight: 700;
 }
 
+
 .edit-comment-button{
     align-items: center;
     background-color: #94b4e5;
@@ -626,7 +548,6 @@
 }
 
  
-
 .edit-close-button{
     background-color: #94b4e5;
     border-color: #94b4e5;
@@ -654,7 +575,7 @@
 
 }
 
-
+ 
 .text-wrapper-2 {
     font-family: "Inter", Helvetica;
     color: black;
