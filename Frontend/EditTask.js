@@ -11,7 +11,6 @@ export const EditTask = ({ task, onSubmit, onClose }) => {
       severity: '',
       responsible: '',
       status: '',
-      assignedBy: '',
       team: '',
       deadline: '',
       date: '',
@@ -31,7 +30,6 @@ export const EditTask = ({ task, onSubmit, onClose }) => {
             severity: data.severity,
             responsible: data.responsible,
             status: data.status,
-            assignedBy: data.assignedBy,
             team: data.team,
             deadline: data.delivery_date ? convertDate(data.delivery_date.split("T")[0]) : '',
             date: data.issuance_date ? convertDate(data.issuance_date.split("T")[0]) : '',
@@ -77,8 +75,6 @@ export const EditTask = ({ task, onSubmit, onClose }) => {
         severity: taskDetails.severity,
         responsible: taskDetails.responsible,
         status: taskDetails.status,
-        assignedBy: taskDetails.assignedBy,
-        team: taskDetails.team,
         deadline: taskDetails.deadline,
         definition: taskDetails.definition,
       })
@@ -141,7 +137,6 @@ export const EditTask = ({ task, onSubmit, onClose }) => {
           <div className="editRectangle" />
           <div className="edit-responsible-label">Responsible</div>
           <div className="editRectangle" />
-          <div className="edit-assignedby-label">Assigned by</div>
           <div className="editRectangle" />
           <div className="editRectangle" />
           <div className="edit-status-label">Status</div>
@@ -161,19 +156,7 @@ export const EditTask = ({ task, onSubmit, onClose }) => {
               <option value="Suspended">Suspended</option>
             </select>
           </div>
-  
-          <input
-            className="edit-team-newtask"
-            name="team" 
-            value={taskDetails.team} 
-            onChange={handleChange} 
-          />
-          <input
-            className="edit-assignedby-newtask"
-            name="assignedBy" 
-            value={taskDetails.assignedBy} 
-            onChange={handleChange} 
-          />
+
           <div className="edit-date2-newtask" name="deadline">
             <MyDatePicker onChange={handleDateChange} selectedDay={new Date(taskDetails.deadline).getTime()} />
           </div>
