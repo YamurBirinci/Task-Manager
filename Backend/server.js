@@ -10,8 +10,8 @@ app.use(express.json());
 const pool = mysql.createPool({
   connectionLimit: 10,
   host: 'localhost',
-  user: 'root',
-  password: 'MySQL61.',
+  user: '',
+  password: '',
   database: 'TaskManager'
 });
 
