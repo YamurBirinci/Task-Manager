@@ -1,0 +1,203 @@
+.TaskManager {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .TaskManager .div {
+    background-color: #ffffff;
+    height: 1024px;
+    position: relative;
+    width: 1440px;
+  }
+
+
+  .TaskManager .edit {
+    font-size: 18px;
+    font-weight: 700;
+    color: #5283cc;
+    flex: 0 0 auto;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid;
+    border-color: #d4d4d4;
+    border-radius: 8px;
+    letter-spacing: 0;
+    box-shadow: inset 0px 4px 4px #fefefe40, 0px 2px 2px #83838340;
+    gap: 10px;
+    height: 60px;
+    justify-content: center;
+    left: 5px;
+    padding: 10px;
+    line-height: normal;
+    top: 0px;
+    width: 85px;
+    position: relative;
+  }
+ 
+
+  .task-header{
+    box-shadow: inset 0px 4px 4px #fefefe40, 0px 2px 2px #83838340;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 36px;
+    font-weight: bold;
+    position: absolute;
+    width: 1320px;
+    height: 55px;
+    background-color: #3f80b6 ;
+    padding: 10px;
+    margin-top: 10px;
+  }
+ 
+  .TaskManager .delete {
+    font-size: 18px;
+    color: #5283cc;
+    flex: 0 0 auto;
+    letter-spacing: 0;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid;
+    border-color: #d4d4d4;
+    border-radius: 8px;
+    box-shadow: inset 0px 2px 2px #fefefe40, 0px 2px 2px #83838340;
+    gap: 10px;
+    height: 60px;
+    justify-content: center;
+    line-height: normal;
+    left: 10px;
+    top: 0px;
+    width: 55px;
+    position: relative;
+    font-weight: 700;
+  }
+
+
+  .TaskManager .create-button {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 18px;
+    font-weight: 700;
+    align-items: center;
+    background-color: #5196cf;;
+    border: 1px solid;
+    border-color: #3f80b6;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 4px #5595d4, 0px 4px 4px #00000040;
+    display: flex;
+    gap: 10px;
+    height: 55px;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 160px;
+    transition: all 0.2s ease;
+    width: 200px;
+  }
+
+
+.tasks-table {
+  background-color: f0f0f0;
+  width: 1350px;
+  border-collapse: collapse;
+  display: block;
+  margin-top: 240px;
+}
+
+ 
+.tasks-table thead,
+.tasks-table tbody {
+  display: block;
+}
+
+ 
+.tasks-table tbody {
+  height: 570px; 
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+
+.tasks-table th{
+  background-color: #f0f0f0;
+}
+
+
+.tasks-table th,
+.tasks-table td {
+  color: #000000;
+  font-family: "Inter", Helvetica;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+ 
+
+.tasks-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+
+.tasks-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+
+.tasks-table th:nth-child(1),
+.tasks-table td:nth-child(1) {
+  width: 85px;
+}
+
+ 
+.tasks-table th:nth-child(2),
+.tasks-table td:nth-child(2) {
+
+  width: 305px;
+
+}
+
+ 
+.tasks-table th:nth-child(3),
+.tasks-table td:nth-child(3) {
+  width: 100px;
+}
+
+ 
+.tasks-table th:nth-child(4),
+.tasks-table td:nth-child(4) {
+  width: 90px;
+}
+
+ 
+.tasks-table th:nth-child(4),
+.tasks-table td:nth-child(4) {
+  width: 90px;
+}
+
+
+.tasks-table th:nth-child(5),
+.tasks-table td:nth-child(5) {
+  width: 180px;
+}
+
+ 
+.tasks-table th:nth-child(6),
+.tasks-table td:nth-child(6) {
+  width: 120px;
+}
+
+
+.tasks-table th:nth-child(7),
+.tasks-table td:nth-child(7) {
+  width: 120px;
+}
+
+
+.tasks-table th:nth-child(8),
+.tasks-table td:nth-child(8) {
+  width: 152px;
+}
